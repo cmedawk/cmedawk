@@ -20,5 +20,5 @@ jobs:
       - name: Update Recent Activity
         uses: Readme-Workflows/recent-activity@v2.4.1
         with:
-          GH_USERNAME: cmedawk
-          CONFIG_FILE: .github/workflows/update_readme.yml
+          GH_USERNAME: TU_USUARIO
+          CONFIG_FILE: .github/recent-activity.config.yml
