@@ -1,4 +1,4 @@
-username: TU_USUARIO_GITHUB   # Reemplaza con tu username
+username: cmedawk   # Reemplaza con tu username
 max_events: 10
 readme_file: README.md
 token: ""   # DEJA VACÍO, lo pasaremos por workflow
