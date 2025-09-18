@@ -1,0 +1,4 @@
+username: TU_USUARIO
+token: ${{ secrets.GITHUB_TOKEN }}
+max_events: 10
+readme_file: README.md
