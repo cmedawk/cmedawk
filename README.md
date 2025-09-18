@@ -7,3 +7,7 @@
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/cmedawk/cmedawk)
 
+### :zap: Actividades Recientes
+<!--START_SECTION:activity-->
+
+<!--END_SECTION:activiy-->
