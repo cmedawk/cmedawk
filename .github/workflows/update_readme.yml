@@ -11,7 +11,7 @@ jobs:
     name: Update Profile README
 
     permissions:
-      contents: write
+      contents: write   # Importante para que GITHUB_TOKEN pueda modificar el repo
 
     steps:
       - name: Checkout repo
@@ -20,5 +20,7 @@ jobs:
       - name: Update Recent Activity
         uses: Readme-Workflows/recent-activity@v2.4.1
         with:
-          GH_USERNAME: TU_USUARIO
+          GH_USERNAME: TU_USUARIO_GITHUB
           CONFIG_FILE: .github/recent-activity.config.yml
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # 🔑 Aquí se pasa el token
